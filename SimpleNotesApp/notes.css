@@ -1,0 +1,35 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+.app-container{
+    height: 100vh; /* Full height */
+    width: 100vw; /* Full width */
+}
+
+.date-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+    color: rgb(100,10,10);
+}
+
+.notes-wrapper{
+    height: 400px;
+    border-bottom: 1px solid black;
+    overflow: auto;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.hidden{
+    display: none;
+}

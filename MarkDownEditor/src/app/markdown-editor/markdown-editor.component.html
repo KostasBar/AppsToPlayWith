@@ -1,0 +1,20 @@
+<div class="container-fluid vh-100 d-flex flex-column">
+    <div class="row flex-grow-1">
+      <!-- Input Section -->
+      <div class="col-md-6 p-3">
+        <textarea 
+          [(ngModel)]="markdownText" 
+          class="form-control h-100" 
+          placeholder="Write Markdown here...">
+        </textarea>
+      </div>
+  
+      <!-- Preview Section -->
+      <div class="col-md-6 p-3 border-start">
+        <div class="h-100 overflow-auto border rounded p-2 bg-light">
+          <div [innerHTML]="formattedMarkdown"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -19,7 +19,7 @@ This repository contains a variety of small applications to experiment with diff
 
 ### DirTreeVisualizer
 - **Description**: Visualizes the directory structure of a given folder in a user-friendly way.
-- **Language**: [Language used, e.g., Python]
+- **Language**: Python
 - **How to Run**:
   ```bash
   cd DirTreeVisualizer
@@ -31,7 +31,7 @@ This repository contains a variety of small applications to experiment with diff
 
 ### SimpleNotesApp
 - **Description**: A lightweight notes-taking app with basic CRUD operations.
-- **Language**: [Language used, e.g., JavaScript]
+- **Language**: JavaScript
 - **How to Run**:
   ```bash
   cd SimpleNotesApp
@@ -44,7 +44,7 @@ This repository contains a variety of small applications to experiment with diff
 
 ### MarkDownEditor
 - **Description**: A split-screen Markdown editor where text is written on the left and rendered on the right.
-- **Language**: [Language used, e.g., Angular]
+- **Language**: Angular
 - **How to Run**:
   ```bash
   cd MarkDownEditor

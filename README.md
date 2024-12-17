@@ -20,37 +20,20 @@ This repository contains a variety of small applications to experiment with diff
 ### DirTreeVisualizer
 - **Description**: Visualizes the directory structure of a given folder in a user-friendly way.
 - **Language**: Python
-- **How to Run**:
-  ```bash
-  cd DirTreeVisualizer
-  python main.py
-  ```
 - **Features**:
   - Traverses directories recursively.
-  - Outputs results in text or graphical format.
+  - Outputs results in graphical format.
 
 ### SimpleNotesApp
 - **Description**: A lightweight notes-taking app with basic CRUD operations.
 - **Language**: JavaScript
-- **How to Run**:
-  ```bash
-  cd SimpleNotesApp
-  npm install
-  npm start
-  ```
 - **Features**:
   - Create, read, update, and delete notes.
   - Simple, clean UI.
 
 ### MarkDownEditor
 - **Description**: A split-screen Markdown editor where text is written on the left and rendered on the right.
-- **Language**: Angular
-- **How to Run**:
-  ```bash
-  cd MarkDownEditor
-  npm install
-  npm start
-  ```
+- **Language**: Typescript(Angular)
 - **Features**:
   - Live preview of Markdown.
   - User-friendly interface.
